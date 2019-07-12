@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    h1 {
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        .container-image{
+            width: 15%;
+            height: auto;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    p {
+        text-align: center;
+    }
+    #troll {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        right: 150%;
+        transition: right 0.2s;
+    }
+}   

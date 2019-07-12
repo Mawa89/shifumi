@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body h1 {
+    text-align: center; }
+  body .container {
+    display: flex;
+    justify-content: space-around; }
+    body .container .container-image {
+      width: 15%;
+      height: auto; }
+      body .container .container-image img {
+        width: 100%;
+        height: auto; }
+  body p {
+    text-align: center; }
+  body #troll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 150%;
+    transition: right 0.2s; }
+
+/*# sourceMappingURL=style.css.map */
